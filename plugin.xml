@@ -1,28 +1,13 @@
-<plugin name='solr' version='0.3' grailsVersion='1.1 &gt; *'>
-  <author>Mike Brevoort</author>
-  <authorEmail>brevoortm@avalonconsult.com</authorEmail>
+<plugin name='grails-solr' version='0.1' grailsVersion='2.4 &gt; *'>
+  <author>Eric Siebeneich</author>
+  <authorEmail>eric.siebeneich@gmail.com</authorEmail>
   <title>Grails Solr Plugin</title>
-  <description>\
-Provides search capabilities for Grails domain model and more using the excellent Solr 
+  <description>Provides search capabilities for Grails domain model and more using the excellent Solr
 open source search server through the SolrJ library.
 </description>
-  <documentation>http://grails.org/Solr+Plugin</documentation>
+  <documentation>http://grails.org/plugin/grails-com.zeebo.grails.solr</documentation>
+  <type>GrailsSolrGrailsPlugin</type>
   <resources>
-    <resource>Config</resource>
-    <resource>DataSource</resource>
-    <resource>UrlMappings</resource>
-    <resource>org.grails.solr.Listing</resource>
-    <resource>org.grails.solr.Solr1</resource>
-    <resource>org.grails.solr.Solr1Annotated</resource>
-    <resource>org.grails.solr.Solr1Disabled</resource>
-    <resource>org.grails.solr.Solr1Override</resource>
-    <resource>org.grails.solr.Solr2</resource>
-    <resource>org.grails.solr.TESTENUM</resource>
-    <resource>org.grails.solr.SolrService</resource>
-    <resource>org.grails.solr.SolrTagLib</resource>
+    <resource>com.zeebo.grails.solr.SolrService</resource>
   </resources>
-  <dependencies>
-    <plugin name='domainClass' version='1.1 &gt; *' />
-  </dependencies>
-  <behavior />
 </plugin>
