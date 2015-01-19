@@ -27,7 +27,7 @@ open source search server through the SolrJ library.
 '''
 
 	// URL to the plugin's documentation
-	def documentation = "http://grails.org/plugin/grails-com.zeebo.grails.solr"
+	def documentation = "https://github.com/zeebo404/grails-solr-plugin/wiki"
 
 	// Extra (optional) plugin metadata
 
@@ -41,10 +41,10 @@ open source search server through the SolrJ library.
 //	def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
 	// Location of the plugin's issue tracker.
-	def issueManagement = [ system: "Github", url: "https://github.com/zeebo404/grails-com.zeebo.grails.solr-plugin/issues" ]
+	def issueManagement = [ system: "Github", url: "https://github.com/zeebo404/grails-solr-plugin/issues" ]
 
 	// Online location of the plugin's browseable source code.
-	def scm = [ url: "https://github.com/zeebo404/grails-com.zeebo.grails.solr-plugin/" ]
+	def scm = [ url: "https://github.com/zeebo404/grails-solr-plugin" ]
 
 //	def doWithWebDescriptor = { xml -> }
 

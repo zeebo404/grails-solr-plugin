@@ -5,7 +5,7 @@
   <description>Provides search capabilities for Grails domain model and more using the excellent Solr
 open source search server through the SolrJ library.
 </description>
-  <documentation>http://grails.org/plugin/grails-com.zeebo.grails.solr</documentation>
+  <documentation>https://github.com/zeebo404/grails-solr-plugin/wiki</documentation>
   <type>GrailsSolrGrailsPlugin</type>
   <resources>
     <resource>com.zeebo.grails.solr.SolrService</resource>
